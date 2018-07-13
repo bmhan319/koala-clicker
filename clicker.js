@@ -9,9 +9,15 @@ var count = 0;
 function clickCount() {
   count++;
 //output to HTML
-  var displayCounter = document.getElementById("counter")
+  var displayCounter = document.getElementById("title")
   displayCounter.innerHTML = count;
 }
 
-
-
+ 
+function myFunction(){
+if (count==9||count==19){
+  document.getElementById("color").style.color="red";
+} else {
+  document.getElementById("color").style.color="blue";
+}
+}
