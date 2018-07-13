@@ -9,9 +9,6 @@ var count = 0;
 function clickCount() {
   count++;
 //output to HTML
-  var displayCounter = document.getElementById("counter")
+  var displayCounter = document.getElementById("title")
   displayCounter.innerHTML = count;
 }
-
-
-
